@@ -10,7 +10,7 @@ class S22Checker < Formula
   
     def install
       # Homebrew downloads the ddtool binary as `binaries.ddbuild.io`
-      system "cp", "s22-checker.pex", "s22-checker"
+      system "cp", "s22-checker-#{version}.pex", "s22-checker"
       bin.install "s22-checker"
     end
   end
