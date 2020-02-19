@@ -1,4 +1,4 @@
-class S22checker < Formula
+class S22Checker < Formula
     desc "s22-checker is a command line tool for determining if secrets have been added to repos."
     homepage "https://github.com/datadog/devtools/"
     version "unversioned"
