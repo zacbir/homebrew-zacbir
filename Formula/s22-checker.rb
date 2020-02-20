@@ -1,11 +1,11 @@
 class S22Checker < Formula
     desc "s22-checker is a command line tool for determining if secrets have been added to repos."
     homepage "https://github.com/datadog/devtools/"
-    version "unversioned"
+    version "new-unversioned"
   
     if OS.mac?
       url "https://binaries.ddbuild.io/devtools/pex/s22-checker/s22-checker-#{version}.pex", :using => :nounzip
-      sha256 "8866665bd96c6ecb4f2c5ee03738aa6e0962ef6d348feaeeb7403828051fb2bc"
+      sha256 "451f18ca7ebc66388af0b370bfbe2fce0baa01cf337df46fbcb0422c850e101a"
     end
   
     def install
