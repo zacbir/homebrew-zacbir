@@ -13,4 +13,4 @@ class LatestImage < Formula
       system "cp", "latest-image-#{version}.pex", "latest-image"
       bin.install "latest-image"
     end
-  end
+end

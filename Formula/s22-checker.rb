@@ -13,5 +13,4 @@ class S22Checker < Formula
       system "cp", "s22-checker-#{version}.pex", "s22-checker"
       bin.install "s22-checker"
     end
-  end
-  
+end

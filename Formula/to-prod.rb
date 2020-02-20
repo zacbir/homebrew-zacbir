@@ -13,4 +13,4 @@ class ToProd < Formula
       system "cp", "to-prod-#{version}.pex", "to-prod"
       bin.install "to-prod"
     end
-  end
+end
