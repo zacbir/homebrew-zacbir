@@ -5,7 +5,7 @@ class S22Checker < Formula
   
     if OS.mac?
       url "https://binaries.ddbuild.io/devtools/pex/s22-checker/s22-checker-#{version}.pex", :using => :nounzip
-      sha256 "451f18ca7ebc66388af0b370bfbe2fce0baa01cf337df46fbcb0422c850e101a"
+      sha256 "8512774814a7eabbecb613033fbd546f97f244d5409b422a61e6a72fb12b0892"
     end
   
     def install
